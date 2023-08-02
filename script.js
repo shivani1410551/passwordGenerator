@@ -34,7 +34,7 @@ document.querySelector(".start").addEventListener("click", () => {
   document
     .querySelector(".pause")
     .addEventListener("click", () => clearInterval(int));
-    // reset
+  // reset
   document.querySelector(".reset").addEventListener("click", () => {
     clearInterval(int);
     [millisecond, second, minutes, hour] = [0, 0, 0, 0];
